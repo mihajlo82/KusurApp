@@ -1,0 +1,24 @@
+.footerWrapp{
+    position: absolute;
+    bottom: 0;
+    left: 251px;
+    width: 1349px;
+    height: 60px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ebecee);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EBECEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-403f40cc);
+    text-align: center;
+    font: normal normal normal 14px/18px Roboto;
+    letter-spacing: 0px;
+    color: #403F40CC;
+}

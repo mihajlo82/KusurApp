@@ -1,0 +1,225 @@
+.MmTitleWrapp{
+    width:100%;
+    margin-top: 31px;
+    margin-left: 29px;
+    width: 1288px;
+    height: 73px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+}
+
+.MmTitleWrappInner{
+    margin-top: 12px;
+    width: 1288px;
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+}
+
+.titleWrappLeft{
+    height:100%;
+    position: relative;
+    width: 459px;
+    height: 100%;
+    position: relative;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-28)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-100f10);
+    text-align: left;
+    font: normal normal bold 28px/18px Roboto;
+    letter-spacing: 0px;
+    color: #100F10;
+}
+
+.titleLeft{
+    position: absolute;
+    width: 259px;
+    height: 34px;
+    top:25px;
+    left: 0.5px;
+}
+
+
+/* BUTTONS RIGHT */
+.MmTitleWrappButtons{
+    width: 450px;
+    height:100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2px;
+}
+
+.BtnPoslovnica{
+    width: 200px;
+    height: 49px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ebecee);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EBECEE;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.titlePoslovnica{
+    position:absolute;
+    left:15px;
+    width: 93px;
+    height: 19px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---403f40-main-text);
+    text-align: left;
+    font: normal normal medium 16px/20px Roboto;
+    letter-spacing: 0px;
+    color: #403F40;
+    font-weight: 600;
+}
+
+.arrDown{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left:171px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-20) Font Awesome 6 Pro;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---403f40-main-text);
+    text-align: right;
+    font: normal normal normal 16px/20px Font Awesome 6 Pro;
+    letter-spacing: 0px;
+    color: #403F40;
+}
+
+
+/* DATE DROPDON */
+
+/* UPPER DATE DROPDOWN */
+.dateDropd{
+    position: absolute;
+    left:760px;
+    top:50px;
+    width: 307px;
+    height: 298px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 22px 39px #45414E1A;
+    border-radius: 2px;
+    opacity: 1;
+    z-index: 10;
+}
+
+.titleDrop{
+    font-weight: 600;
+}
+.uppDate{
+    height: 143px;
+    width:100%;
+    display: flex;
+}
+
+.uppDateLeft{
+    width:50%;
+    height: 100%;
+}
+
+.typeDate{
+    margin-top: 20px;
+    margin-left: 20px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-403f40cc);
+    text-align: left;
+    font: normal normal normal 14px/18px Roboto;
+    letter-spacing: 0px;
+    color: #403F40CC;
+}
+
+
+/* LOW DATE DROPDOWN */ 
+
+.lowDate{
+    border-top: 1px solid #EFEFEF;
+    height: 155px;
+    width:100%;
+    position:relative;
+}
+.ddWrap{
+    display: flex;
+    width:100%;
+}
+
+.dropdCustWrappField{
+    width:124px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 49px;
+}
+
+.fieldset{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-12)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0-12);
+    color: var(---747474-sub-text);
+    text-align: left;
+    font: normal normal normal 12px/20px Roboto;
+    letter-spacing: 0.12px;
+    color: #747474;
+    padding-left: 5px;
+}
+
+.dropdMain{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(---403f40-main-text);
+    text-align: left;
+    font: normal normal medium 16px/20px Roboto;
+    letter-spacing: 0px;
+    color: #403F40;
+}
+
+.ddWrap{
+    display: flex;
+}
+
+/* Buttons dateDD */
+.btnDDWrapp{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.btnFinPrim{
+    margin-left: 20px;
+    width: 124px;
+    height: 52px;
+    /* UI Properties */
+    background: var(--unnamed-color-3d44db) 0% 0% no-repeat padding-box;
+    background: #3D44DB 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    color:white;
+    font-weight: 600;
+}
+
+.btnFinPon{
+    margin-left: 20px;
+    width: 124px;
+    height: 52px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0px solid white;
+    border-radius: 2px;
+    color:#3D44DB;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-18) var(--unnamed-font-family-roboto);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-3d44db);
+    text-align: center;
+    font: normal normal medium 16px/18px Roboto;
+    font-weight: 600;
+
+
+}
